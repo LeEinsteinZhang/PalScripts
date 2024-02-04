@@ -4,10 +4,10 @@
 script_path=$(realpath "$0")
 script_dir=$(dirname "$script_path")
 
-log_path="$script_dir/../../Restart.log"
+log_path="$script_dir/../Restart.log"
 log_path=$(realpath "$log_path")
 
-boot_path="$script_dir/../../PalServer.sh"
+boot_path="$script_dir/../PalServer.sh"
 boot_path=$(realpath "$boot_path")
 
 date=$(date '+%Y-%m-%d %H:%M:%S')
