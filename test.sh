@@ -5,7 +5,7 @@ script_path=$(realpath "$0")
 script_dir=$(dirname "$script_path")
 
 # 计划任务（Cron Jobs）定义
-palword_joobs="# Palword Settings"
+palword_joobs="# PalWorld Jobs"
 backup_job="*/15 * * * * $script_dir/backup.sh"
 backup_daily_job="0 6 * * * $script_dir/backup_daily.sh"
 backup_monthly_job="0 0 1 * * $script_dir/backup_monthly.sh"
