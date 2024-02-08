@@ -9,7 +9,7 @@ palword_jobs="# PalWorld Jobs"
 backup_job="*/15 * * * * $script_dir/backup.sh"
 backup_daily_job="0 6 * * * $script_dir/backup_daily.sh"
 backup_monthly_job="0 0 1 * * $script_dir/backup_monthly.sh"
-reboot_job="10 6 * * * $script_dir/reboot.sh"
+reboot_job="2 6 * * * $script_dir/reboot.sh"
 watchdog_job="*/5 * * * * $script_dir/watchdog.sh"
 
 # 检查并添加每个cron作业
